@@ -1,0 +1,35 @@
+# Слезун Web Dashboard - Зависимости
+
+# FastAPI & Web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Cryptography & Security
+cryptography==41.0.7
+
+# Trading API
+pybit==5.13.0
+requests==2.31.0
+
+# Async
+aiohttp==3.9.1
+websockets==12.0
+
+# Development
+black==23.12.0
+flake8==6.1.0
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Utils
+pydantic==2.5.0
+pydantic-settings==2.1.0
